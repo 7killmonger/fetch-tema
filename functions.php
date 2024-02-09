@@ -86,7 +86,7 @@ add_action( 'init', 'custom_post_type', 0 );
 
 
 // ADDING POSTS TO CUSTOM POST TYPES
-// add_action('init', 'get_github_repos');
+add_action('init', 'get_github_repos');
 
 function get_github_repos(){
     $githubUsername = 'laravel';
